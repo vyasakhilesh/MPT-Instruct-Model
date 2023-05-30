@@ -1,0 +1,5 @@
+model
+tmp
+*.log
+*.json
+*.sif
