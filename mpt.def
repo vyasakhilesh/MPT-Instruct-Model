@@ -22,7 +22,6 @@ From: python:3.9
 
 %runscript
     echo "Arguments received: $*"
-    exec systemctl reload nginx
     exec echo "$@"
     sh /start.sh
 
