@@ -1,1 +1,2 @@
-sbatch --mem 32G -w devbox4 -J MPT-model --gres=gpu:a5000:1 singularity.sh exec --bind tmp:/tmp,model:/model,conf/nginx.conf:/etc/nginx/nginx.conf mpt.sif sh start.sh
+# sbatch --mem 32G -w devbox4 -J MPT-model --gres=gpu:a5000:1 singularity.sh exec --bind tmp:/tmp,model:/model,conf/nginx.conf:/etc/nginx/nginx.conf mpt.sif sh start.sh
+sbatch --mem 32G -w devbox4 -J MPT-model --gres=gpu:a5000:1 singularity.sh exec --bind tmp:/tmp,model:/model mpt.sif sh start.sh
