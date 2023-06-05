@@ -4,3 +4,4 @@ tmp
 *.json
 *.sif
 *.out
+*.log.*

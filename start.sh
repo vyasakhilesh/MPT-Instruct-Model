@@ -30,7 +30,9 @@ python3 /app/model_worker.py \
       --controller-address http://0.0.0.0:21001 \
       --worker-address http://0.0.0.0:39805 \
       --model-path "/$MODEL_DIR" \
-      --model-name 'MPT-7B-Instruct' &
+      --model-name 'MPT-7B-Instruct' \
+	   > /tmp/fastChat_MODEL.out \
+	   2> /tmp/fastChat_MODEL.err &
 
 # Add a delay to allow the model worker to finish loading
 sleep 50
