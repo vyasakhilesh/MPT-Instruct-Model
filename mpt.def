@@ -1,10 +1,13 @@
+# initializing def file using docker image python 3.9
 Bootstrap: docker
 From: python:3.9
 
+# copying files from host machine
 %files
     ./src /app
     ./start.sh /start.sh
 
+# sequence of commands to be executed to install packages in image
 %post
     pip3 install fschat==0.2.7
 
@@ -20,10 +23,12 @@ From: python:3.9
     
     chmod +x /start.sh
 
+#  scripts to be run in executable image container    
 %runscript
     echo "Arguments received: $*"
     exec echo "$@"
     sh /start.sh
 
+#  defining environment variables
 %environment
     export LISTEN_PORT=12345
