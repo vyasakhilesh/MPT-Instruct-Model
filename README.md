@@ -1,4 +1,4 @@
-# How to Run MPT model
+# How to run MPT model
 Commands to run MPT model using singularity
 ```bash
 $ singularity build mpt.sif mpt.def
