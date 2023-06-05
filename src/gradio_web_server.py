@@ -417,12 +417,15 @@ def build_single_model_ui(models):
 <div style="float:right">
 <img align="right" width="150" src="https://orkg.org/strapi/uploads/Primary_Logo_Lockup_27d073499a.svg">
 <img align="right" width="250" style="margin-top: 20px" src="https://www.tib.eu/typo3conf/ext/tib_tmpl_bootstrap/Resources/Public/gfx/logos/tib-full.svg">
+<img align="right" width="70" style="margin-top: 10px" src="https://www.l3s.de/wp-content/uploads/2022/08/L3S_Logo_2013_rgb.png">
 </div>
 
 # LLMs Playground @ TIB
 
 This instance is running MPT (instruct). [[Blog post]](https://www.mosaicml.com/blog/mpt-7b)
-This is a research prototype based in a large language model. The model might generate wrong, biased or vulgar information. Please use it with care!
+This is a research prototype based on a large language model. 
+The model might generate wrong, biased or vulgar information. 
+Please use it with care!
 
 ### Choose a model to chat with
 """)
