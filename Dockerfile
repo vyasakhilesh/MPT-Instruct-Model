@@ -15,7 +15,7 @@ RUN pip3 install sentencepiece einops
 
 
 # Copy the current directory contents into the container at /app
-COPY . /app
+COPY ./src /app
 
 # Copy start script
 COPY start.sh /start.sh
