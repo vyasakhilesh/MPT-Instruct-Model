@@ -12,5 +12,7 @@ $ singularity build mpt.sif mpt.def
 $ sbatch --mem 32G -w devbox4 -J MPT-model --gres=gpu:a5000:1 singularity.sh exec --bind tmp:/tmp,model:/model mpt.sif sh start.sh
 ```
 
+## Access in Web-Browser (http://localhost:12345/)
+![MPT-Instruct Model](mpt.png "MPT-Instruct Model")
 
 
