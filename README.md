@@ -1,4 +1,4 @@
-# How to run/deploy [MPT-Instruct](https://huggingface.co/mosaicml/mpt-7b-instruct) model
+# How to run/deploy Large Language Model (LLM) [MPT-Instruct](https://huggingface.co/mosaicml/mpt-7b-instruct) model
 
 Commands to run/deploy model using Docker
 ```bash
